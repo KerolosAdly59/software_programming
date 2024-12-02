@@ -7,6 +7,8 @@ int main()
 	int   num1;
 	int   num2;
 	char operation;
+		int   num0;
+
 
 	printf("please select any opration\n");
 	printf("1- arthmatic\n");
