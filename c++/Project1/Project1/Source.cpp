@@ -1,10 +1,16 @@
 #include <iostream>
+#include "STDtype.h"
+#include "ARR.h"
 
-typedef int u16;
 using namespace std;
+
 int main()
 {
-    bool x = 10 < 5;
-    cout << "the result = " << x;
+    u16 x[9] = { 0,240,123,3,2,10,1,200,4};
+
+    Arr_BubbleSort(x, 10 , 1);
+
+    Arr_DisplayNumber(x, 9);
+  
     return 0;
 }

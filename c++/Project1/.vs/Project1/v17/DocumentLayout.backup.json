@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\kerolos 1\\programming\\C-language\\Repo\\software_programming\\c\u002B\u002B\\Project1\\",
+  "WorkspaceRootPath": "G:\\software_prograiming\\software_programming\\c\u002B\u002B\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14F57FF9-4301-4D65-8260-6675A7ACE5C8}|Project1\\Project1.vcxproj|D:\\kerolos 1\\programming\\C-language\\Repo\\software_programming\\c\u002B\u002B\\Project1\\Project1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{14F57FF9-4301-4D65-8260-6675A7ACE5C8}|Project1\\Project1.vcxproj|G:\\software_prograiming\\software_programming\\c\u002B\u002B\\Project1\\Project1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{14F57FF9-4301-4D65-8260-6675A7ACE5C8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\kerolos 1\\programming\\C-language\\Repo\\software_programming\\c\u002B\u002B\\Project1\\Project1\\Source.cpp",
+              "DocumentMoniker": "G:\\software_prograiming\\software_programming\\c\u002B\u002B\\Project1\\Project1\\Source.cpp",
               "RelativeDocumentMoniker": "Project1\\Source.cpp",
-              "ToolTip": "D:\\kerolos 1\\programming\\C-language\\Repo\\software_programming\\c\u002B\u002B\\Project1\\Project1\\Source.cpp",
+              "ToolTip": "G:\\software_prograiming\\software_programming\\c\u002B\u002B\\Project1\\Project1\\Source.cpp",
               "RelativeToolTip": "Project1\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T01:04:48.55Z",
+              "WhenOpened": "2025-01-11T20:35:42.736Z",
               "EditorCaption": ""
             }
           ]
