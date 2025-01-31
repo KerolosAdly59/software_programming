@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arr.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Repo_Git\Embedded-System-AVR\NRF_TX\COMMON\Bitmath.h" />
+    <ClInclude Include="..\..\..\..\..\Repo_Git\Embedded-System-AVR\NRF_TX\COMMON\Definition.h" />
+    <ClInclude Include="ARR.h" />
+    <ClInclude Include="STDtype.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
