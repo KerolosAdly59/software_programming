@@ -1,0 +1,34 @@
+
+.clear
+{
+    clear: both;
+}
+div.home {
+    width: 100%;
+    height: 100vh;
+    background-color: lightseagreen;
+    background-image: url(../images/hero\ img.jpg);
+}
+div.home h1
+{
+    position: absolute;
+    left: 7%;
+}
+div.home div.navbar {
+    background-color: lightcoral;
+    float: right;
+    width: 80%;
+}
+
+div.home div.navbar ul {
+    width: 70%;
+    margin-left: 40%;
+    box-sizing: border-box;
+}
+
+div.home div.navbar ul li {
+    padding-right: 5%;
+    float: left;
+    font-size: 100%;
+    font-weight :900;
+}
