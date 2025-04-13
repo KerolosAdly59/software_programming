@@ -21,19 +21,24 @@ a {
 nav {
     background-color: rgb(245, 248, 248);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-inline: 100px;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
+nav div.navlogo a h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
 
- nav div.navlogo a h1 span {
+nav div.navlogo a h1 span {
     color: brown;
 }
 
 nav div.navlink ul {
     display: flex;
     width: 400px;
+    padding-top: 10px;
     justify-content: space-around;
 }
 
@@ -60,10 +65,10 @@ nav div.navlink ul li a:hover::before {
 }
 
 nav i {
-    background-color: darkorange;
-    width: 40px;
-    height: 40px;
+    font-size: 24px;
+    text-align: center;
 }
+
 
 /* End navbar style */
 
@@ -78,15 +83,25 @@ header div.home {
     justify-content: space-between;
     padding-inline: 200px;
     background-color: rgb(238, 238, 238);
+    padding: 100px;
 }
-div.home-content
-{
-    width: 80%;
-    margin-inline: auto;
+
+header div.home-content {
+    width: 50%;
+    padding-top: 100px;
 }
+
+header div.home div.home-content h2 {
+    font-size: 50px;
+}
+
+header div.home div.home-content p {
+    font-size: 20px;
+}
+
 header div.home div.home-content div.home-buttom {
     display: flex;
-    flex-direction :row;
+    flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
     font-size: 15px;
@@ -94,47 +109,57 @@ header div.home div.home-content div.home-buttom {
     width: 400px;
 
 }
+
 /* btn-main */
-header div.home div.home-content div.home-buttom a.btn-main 
-{ 
+header div.home div.home-content div.home-buttom a.btn-main {
     display: inline-block;
     padding: 15px 20px;
     text-decoration: none;
     font-weight: bold;
     color: white;
-    border-radius: 20px; 
-    transition: background-color 500ms ;
-    background-color: #b12929; 
+    border-radius: 0 20px 20px 20px;
+    transition: background-color 500ms;
+    background-color: #b12929;
 }
 
 header div.home div.home-content div.home-buttom a.btn-main:hover {
-    background-color: #ff0000; 
-  }
+    background-color: #ff0000;
+}
+
 header div.home div.home-content div.home-buttom a.btn-main::after {
     content: "";
     width: 10px;
     height: 15px;
 
 }
+
 /* btn video */
-header div.home div.home-content div.home-buttom a.btn-video 
-{ 
+header div.home div.home-content div.home-buttom a.btn-video {
     display: inline-block;
     padding: 15px 20px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    transition: color  500ms ;
+    transition: color 500ms;
 }
+
 header div.home div.home-content div.home-buttom a.btn-video:hover {
-    color: #ff0000; 
-  }
+    color: #ff0000;
+}
+
+/* icon in - btn video */
+
+header div.home div.home-content div.home-buttom div.btn-video a i 
+{
+font-size: 30px;  
+}
 header div.home div.home-img {
-    width: 30%;
+    width: 40%;
 }
 
 header div.home div.home-img img {
     width: 100%;
+
 }
 
 /* End home style */
