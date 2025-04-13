@@ -1,0 +1,112 @@
+/* start global style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* End global style */
+
+/* start navbar style */
+
+div.navbar {
+    background-color: rgb(245, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+    padding-top: 20px;
+}
+
+div.navlogo {
+    /* background-color: blue; */
+}
+
+div.navbar div.navlogo a h1 span {
+    color: brown;
+}
+
+div.navbar div.navlink {
+    /* background-color: rgb(221, 212, 195); */
+}
+
+div.navbar div.navlink ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+div.navbar div.navlink ul li {
+    position: relative;
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+
+div.navbar div.navlink ul li a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(223, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 500ms;
+}
+
+div.navbar div.navlink ul li a:hover::before {
+    transform: translateX(0);
+}
+
+div.navbar i {
+    background-color: darkorange;
+    width: 40px;
+    height: 40px;
+}
+
+/* End navbar style */
+
+/* Start home style */
+div.home {
+    /* background-color: rgb(85, 21, 63); */
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+div.home div.home-content div.home-buttom 
+{
+    background-color: blue;
+    margin-top: 20px;
+    text-align: center;
+}
+div.home div.home-content div.home-buttom a
+{
+    padding: 30px;
+
+}
+div.home div.home-img {
+    width: 30%;
+}
+
+div.home div.home-img img {
+    width: 100%;
+}
+
+/* End home style */
+
+
+
+
+
+@media screen and (min-width:1280px) {}

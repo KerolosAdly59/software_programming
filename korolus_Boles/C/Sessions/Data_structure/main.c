@@ -4,7 +4,7 @@
 #define max_Size 10
 
 typedef struct {
-    Data_Tybe elements[max_Size];
+   Data_Tybe elements[max_Size];
     int top;
 } stack;
 
