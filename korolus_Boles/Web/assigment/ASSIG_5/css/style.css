@@ -18,8 +18,7 @@ a {
 /* End global style */
 
 /* start navbar style */
-
-div.navbar {
+nav {
     background-color: rgb(245, 248, 248);
     display: flex;
     justify-content: space-between;
@@ -27,31 +26,24 @@ div.navbar {
     padding-top: 20px;
 }
 
-div.navlogo {
-    /* background-color: blue; */
-}
 
-div.navbar div.navlogo a h1 span {
+ nav div.navlogo a h1 span {
     color: brown;
 }
 
-div.navbar div.navlink {
-    /* background-color: rgb(221, 212, 195); */
-}
-
-div.navbar div.navlink ul {
+nav div.navlink ul {
     display: flex;
     width: 400px;
     justify-content: space-around;
 }
 
-div.navbar div.navlink ul li {
+nav div.navlink ul li {
     position: relative;
     padding-bottom: 6px;
     overflow: hidden;
 }
 
-div.navbar div.navlink ul li a::before {
+nav div.navlink ul li a::before {
     content: "";
     width: 100%;
     height: 2px;
@@ -63,11 +55,11 @@ div.navbar div.navlink ul li a::before {
     transition: transform 500ms;
 }
 
-div.navbar div.navlink ul li a:hover::before {
+nav div.navlink ul li a:hover::before {
     transform: translateX(0);
 }
 
-div.navbar i {
+nav i {
     background-color: darkorange;
     width: 40px;
     height: 40px;
@@ -75,7 +67,10 @@ div.navbar i {
 
 /* End navbar style */
 
+/* --------------------------------------------------------- */
+
 /* Start home style */
+
 div.home {
     /* background-color: rgb(85, 21, 63); */
     height: 100vh;
@@ -84,17 +79,31 @@ div.home {
     padding: 50px;
 }
 
-div.home div.home-content div.home-buttom 
-{
+div.home div.home-content div.home-buttom {
     background-color: blue;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
     margin-top: 20px;
-    text-align: center;
+    font-size: 15px;
 }
-div.home div.home-content div.home-buttom a
+
+div.home div.home-content div.home-buttom a 
 {
-    padding: 30px;
+   
+    background-color: red;
+    color: white;
+    position: relative;
 
 }
+
+div.home div.home-content div.home-buttom a::after {
+    content: "";
+    width: 10px;
+    height: 15px;
+
+}
+
 div.home div.home-img {
     width: 30%;
 }
