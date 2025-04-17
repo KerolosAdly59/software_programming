@@ -148,11 +148,14 @@ header div.home div.home-content div.home-buttom a.btn-video:hover {
 }
 
 /* icon in - btn video */
-
-header div.home div.home-content div.home-buttom div.btn-video a i 
+header div.home div.home-content div.home-buttom a.btn-video i
 {
-font-size: 30px;  
+    font-size: 15px;
+    padding-right: 3px;
+    border: 5px solid #ff0000;
+    border-radius: 10px;
 }
+/*------------------------------------------------------------------ */
 header div.home div.home-img {
     width: 40%;
 }
@@ -165,7 +168,75 @@ header div.home div.home-img img {
 /* End home style */
 
 
+/* Start CHEFS style */
 
+div.CHEFS {
+    padding-top: 80px;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+div.CHEFS div.CHEFS-content {
+    padding-block: 20px;
+    color: rgb(0, 0, 0);
+}
+
+div.CHEFS div.CHEFS-content h2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+div.CHEFS div.CHEFS-content p {
+    font-size: 2.125rem;
+}
+
+div.CHEFS div.CHEFS-content span {
+    color: #ff0000;
+    font-size: 50px;
+}
+
+div.CHEFS div.img-CHEFS {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+}
+
+div.CHEFS div.img-CHEFS div.img {
+    width: 27%;
+    position: relative
+}
+
+div.CHEFS div.img-CHEFS div.img h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    border-bottom: 10px solid white;
+}
+
+div.CHEFS div.img-CHEFS div.img p {
+    padding-block: 20px;
+}
+
+div.CHEFS div.img-CHEFS div.img img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+div.CHEFS div.img-CHEFS div.img ::after {
+    content: '';
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: url('../images/team-shape.svg') no-repeat bottom center;
+    background-size: cover;
+}
+
+/* End CHEFS style */
 
 
 @media screen and (min-width:1280px) {}
