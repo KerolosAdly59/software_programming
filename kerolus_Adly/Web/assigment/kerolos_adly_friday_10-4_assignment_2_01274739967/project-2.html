@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./project-2.css">
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <fieldset class="part1">
+                <legend>Personal Data</legend>
+                <br><br>
+                <div id="part2">
+                    <fieldset class="part2">
+                        <legend id="part2">Your Name</legend>
+                        <br><br>
+                        <label for="FN">first name </label>
+                        : <input id="FN" type="text" name="first name" required placeholder="ex ahmed">
+                        <br>
+                        <label for="SN">second name </label>
+                        : <input id="SN" type="text" name="second name" required placeholder="ex bahnasy">
+
+                    </fieldset>
+                </div>
+                <br><br>
+                <label for="ph">your phone</label>
+                : <input id="ph" type="number" name="phone number" required maxlength="11">
+                <br>
+                <label for="E">Email</label>
+                : <input id="E" type="email" name="Email" required>
+                <br>
+                <label for="P"> password </label>
+                : <input id="P" type="password" name="password" required >
+                <br>
+                <label for="rP">re-password</label>
+                : <input id="rP" type="password" name="re-password" required>
+
+                
+                <br><br><br><br>
+
+                <input id="gendar" type="radio" name="gender" value="male" required>
+                <label for="gender">male</label><br>
+                <input id="gendar" type="radio" name="gender" value="female">
+                <label for="gender">female</label><br>
+                <br><br>
+                <input id="status" type="checkbox" name="studas" value="student">
+                <label for="status">student</label><br>
+                <input id="status" type="checkbox" name="studas" value="Graduated">
+                <label for="status">Graduated</label><br>
+                <br><br>
+                <div id="part4">
+                    <select name="select" >
+                        <optgroup label="Group 1">
+                            <option value="1" selected>option 1.1</option>
+                        </optgroup>
+                        <optgroup label="Group 2">
+                            <option value="2">option 2.1</option>
+                            <option value="3">option 2.2</option>
+                        </optgroup>
+                        <optgroup label="Group ">
+                            <option value="4">option 3.1</option>
+                            <option value="5">option 3.2</option>
+                            <option value="6">option 3.3</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    <button><img src="./img/images.jpeg" alt="submit"></button>
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

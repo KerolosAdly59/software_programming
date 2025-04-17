@@ -1,0 +1,534 @@
+/* shared section */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.clear {
+    clear: both;
+}
+
+/* home section */
+div.home {
+    height: 100vh;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: cover;
+    overflow: visible;
+}
+
+div.home div.navbar {
+    width: 80%;
+    margin-inline: auto;
+    padding-block: 25PX;
+    color: white;
+}
+
+div.home div.navbar div.navbar-logo {
+    float: left;
+}
+
+div.home div.navbar div.navbar-logo img {
+    width: 45%;
+    cursor: pointer;
+}
+
+div.home div.navbar div.navbar-links {
+    font-size: 18px;
+    float: right;
+
+}
+
+div.home div.navbar div.navbar-links ul {
+    list-style: none;
+}
+
+div.home div.navbar div.navbar-links ul li {
+    float: left;
+    padding-inline: 10px;
+    cursor: pointer;
+
+}
+
+div.home div.navbar div.navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+    float: left;
+
+}
+
+div.home div.home-content {
+    text-align: center;
+    margin: 200px;
+    color: white;
+    font-size: 25px;
+}
+div.home div.home-content button.form a
+{
+    text-decoration: none;
+    color: white;
+}
+div.home div.home-content p {
+    width: 65%;
+    margin: auto;
+}
+
+div.home div.home-content h1 {
+    margin-block: 15px;
+    font-size: 60px;
+}
+
+div.home div.home-content button {
+    padding: 15px 28px;
+    color: white;
+    border-radius: 3px;
+    background-color: transparent;
+    margin-top: 20px;
+    border-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+div.home div.home-content button.learn-more {
+    background-color: rgba(248, 159, 64, 0.841);
+    border-color: transparent;
+}
+div.home div.home-content button.form
+{
+    display: block;
+    margin-inline: 48.8%;
+    margin-top: 7%;
+    padding-block: 1.7%;
+    padding-inline: 1.35%;
+    border-radius: 24px;
+    border: 2px solid white;
+}
+
+/* section part 1 */
+div.info {
+    height: 100vh;
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 5%;
+    overflow: hidden;
+
+}
+
+div.info div.info-image {
+    width: 50%;
+    float: left;
+}
+
+div.info div.info-image img {
+    width: 100%;
+
+}
+
+div.info div.info-about {
+    width: 50%;
+    float: right;
+    padding-left: 7%;
+    margin-top: 7%;
+    color: gray;
+}
+
+div.info div.info-about h2 {
+    color: rgba(23, 23, 23, 0.884);
+    font-size: 180%;
+}
+
+div.info div.info-about p {
+    margin-block: 6%;
+}
+
+div.info div.info-about div.info-list {
+    width: 100%;
+}
+
+div.info div.info-about div.info-list div.list-1 {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+div.info div.info-about div.info-list div.list-1 ul {
+    width: 90%;
+
+}
+
+div.info div.info-about div.info-list div.list-1 ul li img {
+    width: 100%;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, .15);
+    border: 1px solid;
+}
+
+div.info div.info-about div.info-list div.list-2 {
+    float: left;
+    margin-left: 2%;
+}
+
+div.info div.info-about div.info-list ul {
+    list-style: none;
+}
+
+div.info div.info-about div.info-list ul li {
+    margin-top: 9%;
+    margin-bottom: 16%;
+}
+
+/* section part-2 */
+div.location {
+    height: 100vh;
+    padding-inline: 10%;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+div.location div.location-content {
+    float: left;
+    width: 50%;
+}
+
+div.location div.location-content h2 {
+    margin-top: 40%;
+    margin-bottom: 6%;
+    font-size: 180%;
+    color: rgba(23, 23, 23, 0.884);
+
+}
+
+div.location div.location-content p {
+    margin-top: 5%;
+    padding-right: 8%;
+    overflow: hidden;
+    color: gray;
+
+}
+
+
+div.location div.location-image {
+    float: right;
+    width: 50%;
+    margin-block: 7%;
+}
+
+div.location div.location-image img {
+    width: 95%;
+}
+
+/* section part-3 */
+div.baking {
+    width: 80%;
+    height: 86vh;
+    margin-inline: auto;
+    overflow: hidden;
+    margin-block: 6%;
+}
+
+div.baking div.title {
+    text-align: center;
+}
+
+div.baking div.title h2 {
+    margin-bottom: 2%;
+    font-size: 180%;
+    color: rgba(23, 23, 23, 0.884);
+
+}
+
+div.baking div.title p {
+    margin-bottom: 5%;
+    color: gray;
+}
+
+div.baking div.types {
+    text-align: center;
+
+}
+
+div.baking div.types div.type-1 {
+    float: left;
+    width: 33.3%;
+
+}
+
+div.baking div.types div.type-2 {
+    float: left;
+    width: 33.3%;
+}
+
+div.baking div.types div.type-3 {
+    float: left;
+    width: 33.3%;
+}
+
+div.baking div.types img {
+    width: 90%;
+    margin-inline: 5%;
+
+}
+
+div.baking div.types h3 {
+    margin-top: 5%;
+    color: rgba(23, 23, 23, 0.884);
+    font-size: 140%;
+
+}
+
+div.baking div.types p {
+    margin-top: 4%;
+    color: gray;
+    margin-inline: 5%;
+
+}
+
+/* section part-4 */
+div.contact {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding: 8% 10%;
+}
+
+div.contact div.content {
+    width: 50%;
+    float: left;
+    color: gray;
+
+}
+
+div.contact div.content div.description h2 {
+    margin-bottom: 5%;
+    font-size: 190%;
+    color: rgba(23, 23, 23, 0.884);
+
+}
+
+div.contact div.content div.description p {
+    margin-bottom: 5%;
+    padding-right: 7%;
+    line-height: 2;
+}
+
+div.contact div.content div.list {
+    width: 100%;
+}
+
+div.contact div.content div.list ul {
+    list-style: none;
+}
+
+div.contact div.content div.list-1 {
+    width: 5.5%;
+    height: 100%;
+    float: left;
+}
+
+div.contact div.content div.list-1 ul {
+    width: 100%;
+}
+
+div.contact div.content div.list-1 ul li img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 45%;
+    background-color: rgb(142, 119, 84);
+
+}
+
+div.contact div.content div.list-2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+div.contact div.content div.list-2 ul li {
+    margin-bottom: 11%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+div.contact div.image {
+    float: right;
+    margin-right: 3%;
+    background-color: rgb(142, 119, 84);
+    width: 40%;
+    height: 100%;
+    background-size: contain;
+    background-image: url(./images/contact-details-map.png);
+}
+
+/* section part-5 */
+div.about {
+    height: 100vh;
+    overflow: hidden;
+    color: gray;
+
+}
+
+div.about div.details {
+    height: 55vh;
+    overflow: hidden;
+    padding-top: 5%;
+    background-color: rgb(64, 61, 56);
+    padding-inline: 10%;
+}
+
+div.about div.details div.details-list-1 {
+    width: 25%;
+    float: left;
+}
+
+div.about div.details div.details-list-1 p {
+    margin-bottom: 8%;
+    line-height: 180%;
+}
+
+div.about div.details div.details-list-2 {
+    width: 25%;
+    float: left;
+}
+
+div.about div.details div.details-list-2 ul.image {
+    float: left;
+    width: 8%;
+}
+
+div.about div.details div.details-list-2 ul.image li img {
+    width: 100%;
+    margin-bottom: 80%;
+}
+
+div.about div.details div.details-list-2 ul.info {
+    float: left;
+}
+
+div.about div.details div.details-list-2 ul.info li {
+    margin-top: 2%;
+    padding-bottom: 10.2%;
+}
+
+div.about div.details div.details-list-3 {
+    width: 25%;
+    float: left;
+}
+
+div.about div.details div.details-list-3 ul.image {
+    float: left;
+    width: 8%;
+}
+
+div.about div.details div.details-list-3 ul.image li img {
+    width: 100%;
+    margin-bottom: 80%;
+}
+
+div.about div.details div.details-list-3 ul.info {
+    float: left;
+}
+
+div.about div.details div.details-list-3 ul.info li {
+    margin-top: 1.5%;
+    padding-bottom: 16%;
+}
+div.about div.details div.details-list-3 ul.info li.target
+{
+    padding-top: 1%;
+}
+
+div.about div.details div.details-list-4 {
+    width: 25%;
+    float: left;
+}
+
+div.about div.details div.details-list-4 ul.image {
+    overflow: hidden;
+    width: 15%;
+    float: left;
+}
+
+div.about div.details div.details-list-4 ul.image li {
+    float: left;
+
+}
+
+div.about div.details div.details-list-4 ul li img {
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+div.about div.details div.details-list-4 ul li img.loc {
+    margin-bottom: 10%;
+}
+
+div.about div.details div.details-list-4 ul.info li {
+    padding-top: 4%;
+    overflow: hidden;
+    text-align: left;
+    width: 80%;
+    float: left;
+    padding-bottom: 2%;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+div.about div.details div.details-list-4 ul.info li.target
+{
+    padding-top: 7%;
+}
+
+div.about div.details div.details-list-4 ul.info li.earth {
+    margin-top: 3%;
+}
+
+div.about div.details h2 {
+    color: white;
+    margin-bottom: 8%;
+    font-size: 120%;
+}
+div.about div.details div.details-list-2 ul li
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+} 
+div.about div.details div.details-list-3 ul li
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+div.about div.details div.details-list-4 ul li
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+div.about ul {
+    list-style: none;
+}
+
+div.about div.about-logo {
+    padding-inline: 35%;
+    text-align: center;
+    background-color: rgb(53, 51, 48);
+    height: 45vh;
+    padding-top: 4%;
+    overflow: hidden;
+}
+
+div.about div.about-logo p {
+    margin-top: 8%;
+}
+
+div.about div.about-logo ul li {
+    margin-left: 29%;
+    margin-top: 6%;
+    background-color: aqua;
+}
+
+div.about div.about-logo ul li img {
+    width: 13%;
+    float: left;
+    border-radius: 50%;
+    margin-inline: 1%;
+    background-color: rgb(64, 61, 56);
+    cursor: pointer;
+}
