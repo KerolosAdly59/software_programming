@@ -1,0 +1,6 @@
+
+function add( Num1 , num2 )
+{
+   var avg= ( Num1 + Num1) /2;
+   return avg;
+}
