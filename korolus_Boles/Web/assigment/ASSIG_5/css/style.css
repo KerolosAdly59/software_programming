@@ -15,15 +15,35 @@ a {
     color: inherit;
 }
 
+h3 {
+
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    margin-block-start: 0.3456em;
+    margin-block-end: 0.3456em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 /* End global style */
 
 /* start navbar style */
 nav {
     background-color: rgb(245, 248, 248);
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-around;
     padding-inline: 100px;
     padding: 20px 0 20px 0;
+    /* z-index: 9; */
 }
 
 nav div.navlogo a h1 {
@@ -48,7 +68,7 @@ nav div.navlink ul li {
     overflow: hidden;
 }
 
-nav div.navlink ul li a::before {
+nav div.navlink ul li::before {
     content: "";
     width: 100%;
     height: 2px;
@@ -56,12 +76,13 @@ nav div.navlink ul li a::before {
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translateX(-100%);
-    transition: transform 500ms;
+    transform: translatex(-100%);
 }
 
-nav div.navlink ul li a:hover::before {
+nav div.navlink ul li:hover::before {
     transform: translateX(0);
+        transition: transform 500ms;
+
 }
 
 nav i {
@@ -75,12 +96,11 @@ nav i {
 /* --------------------------------------------------------- */
 
 /* Start home style */
-
 header div.home {
     /* background-color: rgb(85, 21, 63); */
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-inline: 200px;
     background-color: rgb(238, 238, 238);
     padding: 100px;
@@ -88,7 +108,7 @@ header div.home {
 
 header div.home-content {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 500px;
 }
 
 header div.home div.home-content h2 {
@@ -149,10 +169,10 @@ header div.home div.home-content div.home-buttom a.btn-video:hover {
 
 /* icon in - btn video */
 
-header div.home div.home-content div.home-buttom div.btn-video a i 
-{
-font-size: 30px;  
+header div.home div.home-content div.home-buttom div.btn-video a i {
+    font-size: 30px;
 }
+
 header div.home div.home-img {
     width: 40%;
 }
@@ -164,8 +184,72 @@ header div.home div.home-img img {
 
 /* End home style */
 
+/* Start CHEFS style */
+div.CHEFS {
+    padding-top: 100px;
+    text-align: center;
+}
+
+div.CHEFS div.CHEFS-content h2 {
+    font-size: 20px;
+}
+
+div.CHEFS div.CHEFS-content span {
+    color: red;
+    font-size: 3.125rem;
+}
+
+div.CHEFS div.CHEFS-content p {
+    font-size: 3.125rem;
+}
+
+div.CHEFS div.Proffesional-CHEFS-img {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+div.CHEFS div.Proffesional-CHEFS-img div.img-CHEFS {
+    width: 25%;
+    position: relative;
+
+}
+
+div.CHEFS div.Proffesional-CHEFS-img div.img-CHEFS img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.CHEFS div.Proffesional-CHEFS-img div.img-CHEFS::after {
+    content: "";
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    background-image: url(../images/team-shape.svg);
+    bottom : 130px;
+    left: 0;
+}
+
+header div.home div.home-content div.home-buttom a.btn-main:hover {
+    background-color: #ff0000;
+}
+
+header div.home div.home-content div.home-buttom a.btn-main::after {
+    content: "";
+    width: 10px;
+    height: 15px;
+
+}
+
+
+
+/* End CHEFS style */
 
 
 
 
-@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1280px) 
+{
+
+}
