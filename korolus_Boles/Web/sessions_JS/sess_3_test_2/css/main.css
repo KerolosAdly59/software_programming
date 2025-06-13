@@ -1,0 +1,16 @@
+
+
+
+.title
+{
+width: fit-content;
+margin: auto;
+}
+
+
+.contact .contact-form .form-control:focus 
+, .search .form-control:focus
+{
+    box-shadow: none;
+    border-color: rgb(13, 170, 13) !important;
+}

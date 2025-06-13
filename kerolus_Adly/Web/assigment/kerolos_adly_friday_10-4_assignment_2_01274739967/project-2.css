@@ -1,0 +1,47 @@
+ legend {
+     background-color: rgb(79, 72, 228);
+     border-radius: 5px;
+ }
+
+ legend#part2 {
+     background-color: rgb(72, 130, 245);
+     height: 75px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+    
+
+ }
+
+ label {
+     width: 10%;
+     display: inline-block;
+
+ }
+
+ fieldset.part1 {
+     background-color: rgb(240, 74, 23);
+     border-radius: 5px;
+ }
+
+ fieldset.part2 {
+     background-color: rgb(237, 203, 11);
+     border-radius: 5px;
+ }
+
+ button{
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+ }
+ img{
+    width: 95px;
+    height: 25px;
+    border-radius: 12px;
+ }
+select{
+    border-radius: 5px;
+} 

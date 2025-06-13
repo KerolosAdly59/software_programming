@@ -6,12 +6,29 @@
  typedef unsigned long int u32;
  typedef unsigned long long int u64;
 
-  struct PID // inti struct 
+  typedef struct fly // inti struct 
   {
      u16   x;
      u16   y;
      u16   z;
   };
+  
+  fly drone_1;
+  fly drone_2;
+
+drone_1.x  =100;
+drone_1.y  =100;
+drone_1.z  =100;
+
+drone_2.x =200;
+drone_2.y =200;
+drone_2.z =200;
+
+  
+  
+  
+  
+  
     struct PWM // inti struct 
   {
      u16   speed;

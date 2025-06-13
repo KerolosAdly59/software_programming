@@ -1,0 +1,1041 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div.clr {
+    clear: both;
+}
+
+/* home-section */
+div.home {
+    height: 100vh;
+    background-image: url(../images/hero\ img.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+div.home div.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div.home div.navbar {
+    margin-top: 1%;
+    width: 92%;
+    margin-inline: auto;
+    position: fixed;
+    right: 5%;
+}
+div.home div.navbar div.left {
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    font-size: 200%;
+    color: rgb(255, 48, 91);
+    cursor: pointer;
+
+}
+
+div.home div.navbar div.right {
+    float: right;
+    width: 50%;
+    font-size: 120%;
+}
+
+div.home div.navbar div.right ul li {
+    float: left;
+    padding-left: 3%;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+
+div.home div.navbar div.right ul li:hover {
+    color: rgb(255, 48, 91);
+}
+
+div.home div.content {
+    width: 50%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+div.home div.content h2 {
+    margin-bottom: 2%;
+    color: white;
+}
+
+div.home div.content h1 {
+    padding-bottom: 1%;
+    font-size: 380%;
+    color: rgb(255, 48, 91);
+}
+
+div.home div.content p {
+    color: white;
+    font-size: 170%;
+}
+
+
+
+/* about-section */
+div.about {
+    height: 90vh;
+    width: 85%;
+    margin-inline: auto;
+    overflow: hidden;
+    padding-top: 8%;
+}
+
+div.about div.image {
+    width: 28%;
+    margin-left: 15%;
+    border: 7px solid #555555;
+    border-radius: 8px;
+    box-sizing: border-box;
+    float: left;
+}
+
+div.about div.image div.container {
+    position: relative;
+    translate: 20px 20px;
+    overflow: hidden;
+    border-radius: 2%;
+
+}
+
+div.about div.image div.container:hover div.background {
+    transform: translatey(-100%);
+}
+
+div.about div.image div.background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0 100%;
+    transition: transform 0.5s;
+}
+
+div.about div.image div.background ul {
+    width: 50%;
+    text-align: center;
+    margin-top: 50%;
+    margin-inline: auto;
+}
+
+div.about div.image div.background ul li {
+    float: left;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    padding-right: 10%;
+    transition: 1s;
+}
+
+div.about div.image div.background ul li:hover {
+    color: rgb(255, 48, 91);
+}
+
+div.about div.image div.background ul li.facebook {
+    padding-left: 10%;
+}
+
+div.about div.image div.background ul li i {
+    font-size: 25px;
+}
+
+div.about div.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+div.about div.content {
+    float: left;
+    width: 53%;
+    height: 90%;
+    padding-left: 5%;
+}
+
+div.about div.content div.intro {
+    border-bottom: 2px dashed gray;
+
+}
+
+div.about div.content div.intro h2 {
+    padding-bottom: 3%;
+    color: #333;
+    font-size: 200%;
+}
+
+div.about div.content div.intro h2 span {
+    color: rgb(255, 48, 91);
+
+}
+
+div.about div.content div.intro p {
+    padding-bottom: 4%;
+    line-height: 130%;
+    font-size: 120%;
+    color: #555555;
+}
+
+div.about div.content div.info div.list {
+    padding-top: 4%;
+}
+
+div.about div.content div.info div.list ul li {
+    list-style: none;
+    float: left;
+    width: 40%;
+    font-size: 120%;
+    padding-bottom: 2%;
+    color: #555555;
+}
+
+div.about div.content div.info div.list ul li.right {
+    width: 45%;
+}
+
+div.about div.content div.info div.list ul li span {
+    color: #333;
+}
+
+div.about div.content div.info div.button {
+    margin-top: 1%;
+}
+
+div.about div.content div.info div.button button {
+    padding: 15px 25px;
+    margin-right: 3%;
+    border-radius: 4%;
+    background-color: rgb(255, 48, 91);
+    color: white;
+    font-size: 100%;
+    border: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+div.about div.content div.info div.button button:hover {
+    background-color: rgb(236, 36, 3);
+}
+
+div.about div.content div.info div.button button i {
+    padding-left: 8px;
+}
+
+/* services-section */
+div.services {
+    height: 70vh;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+div.services div.title {
+    text-align: center;
+    font-size: 180%;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 12vh;
+    margin-inline: auto;
+}
+
+div.services div.title h2 {
+    color: #333;
+}
+
+div.services div.title .line-1 {
+    width: 7%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+    padding-top: 0.5%;
+}
+
+div.services div.title .line-2 {
+    width: 13%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.services div.title .line-3 {
+    width: 7%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.services div.items {
+    width: 75%;
+    height: 50vh;
+    margin-inline: auto;
+}
+div.services div.items div.item-1 {
+    float: left;
+    width: 25%;
+    height: 60%;
+    transition: all 1s;
+}
+
+div.services div.items div.item-1:hover {
+    background-color: white;
+}
+div.services div.items div.item-1:hover i
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+div.services div.items div.item-1 i {
+    color: rgb(255, 48, 91);
+    margin: 10px 20px;
+    margin-inline: auto;
+    display: block;
+    height: 8vh;
+    width: 20%;
+    font-size: 35px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+div.services div.items div.item-1 h3 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+div.services div.items div.item-1 p {
+    text-align: center;
+    padding-inline: 6%;
+    line-height: 150%;
+    color: #555555;
+}
+
+div.services div.items div.item-2 {
+    float: left;
+    width: 25%;
+    height: 60%;
+    transition: 1s;
+}
+div.services div.items div.item-2:hover i
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+div.services div.items div.item-2:hover {
+    background-color: white;
+}
+
+div.services div.items div.item-2 i {
+    color: rgb(255, 48, 91);
+    margin: 10px 20px;
+    margin-inline: auto;
+    display: block;
+    height: 8vh;
+    width: 20%;
+    font-size: 35px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+div.services div.items div.item-2 h3 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+div.services div.items div.item-2 p {
+    text-align: center;
+    padding-inline: 6%;
+    line-height: 150%;
+    color: #555555;
+}
+
+div.services div.items div.item-3 {
+    float: left;
+    width: 25%;
+    height: 60%;
+    transition: 1s;
+}
+div.services div.items div.item-3:hover i
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+div.services div.items div.item-3:hover {
+    background-color: white;
+}
+
+div.services div.items div.item-3 i {
+    color: rgb(255, 48, 91);
+    margin: 4px 20px;
+    margin-inline: auto;
+    display: block;
+    height: 8vh;
+    width: 20%;
+    font-size: 35px;
+    padding-top: 4px;
+    text-align: center;
+}
+div.services div.items div.item-3 i img
+{
+    width: 90%;
+    color: rgb(255, 48, 91);
+}
+
+div.services div.items div.item-3 h3 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+div.services div.items div.item-3 p {
+    text-align: center;
+    padding-inline: 6%;
+    line-height: 150%;
+    color: #555555;
+}
+
+div.services div.items div.item-4 {
+    float: left;
+    width: 25%;
+    height: 60%;
+    transition: 1s;
+}
+div.services div.items div.item-4:hover i
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+div.services div.items div.item-4:hover {
+    background-color: white;
+}
+
+div.services div.items div.item-4 i {
+    color: rgb(255, 48, 91);
+    margin: 10px 20px;
+    margin-inline: auto;
+    display: block;
+    height: 8vh;
+    width: 20%;
+    font-size: 35px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+div.services div.items div.item-4 h3 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+div.services div.items div.item-4 p {
+    text-align: center;
+    padding-inline: 6%;
+    line-height: 150%;
+    color: #555555;
+}
+
+
+/* portfolio-section */
+div.portfolio {
+    height: 120vh;
+    overflow: hidden;
+}
+
+div.portfolio div.part-1 {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 12vh;
+    margin-inline: auto;
+}
+
+div.portfolio div.part-1 div.title h2 {
+    color: #333;
+    font-size: 220%;
+    padding-bottom: 0.5%;
+
+}
+
+div.portfolio div.part-1 div.title .line-1 {
+    width: 7%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+    padding-top: 0.5%;
+}
+
+div.portfolio div.part-1 div.title .line-2 {
+    width: 13%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.portfolio div.part-1 div.title .line-3 {
+    width: 7%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.portfolio div.part-1 div.list {
+    width: 30%;
+    margin-inline: auto;
+    padding-top: 4%;
+}
+
+div.portfolio div.part-1 div.list li {
+    list-style: none;
+    float: left;
+    font-size: 100%;
+    padding-right: 8%;
+    color: #333333;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+div.portfolio div.part-1 div.list li:hover {
+    color: rgb(255, 48, 91);
+}
+
+div.portfolio div.images {
+    padding-top: 5%;
+    width: 75%;
+    margin-inline: auto;
+}
+
+div.portfolio div.images img {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+div.portfolio div.images div.container {
+    width: 31.3333%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+div.portfolio div.images div.container div.background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    visibility: hidden;
+}
+
+div.portfolio div.images div.container:hover div.background {
+    visibility: visible;
+}
+
+div.portfolio div.images div.container div.background i {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    color: rgb(255, 48, 91);
+    font-size: 110%;
+}
+
+/* numbers-section */
+div.numbers
+{
+    height: 35vh;
+    padding-inline: 10%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+div.numbers div.all
+{
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-inline: auto;
+    margin-top: 8%;
+}
+div.numbers div.all h3
+{
+    font-size: 150%;
+    padding-bottom: 2%;
+    color: #333;
+}
+div.numbers div.all i
+{
+    color: rgb(255, 48, 91);
+    font-size: 180%;
+    padding-bottom: 4%;
+}
+div.numbers div.all p
+{
+    color: #555;
+    font-size: 90%;
+    font-weight: 650;
+}
+
+/* feedback-section */
+div.feedback
+{
+    height: 80vh;
+    overflow: hidden;
+}
+
+
+div.feedback div.title h2 {
+    color: #333;
+    font-size: 220%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+div.feedback div.title .line-1 {
+    width: 7%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+    padding-top: 0.5%;
+}
+
+div.feedback div.title .line-2 {
+    width: 13%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.feedback div.title .line-3 {
+    width: 7%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+div.feedback div.profile
+{
+    width: 50%;
+    height: 38vh;
+    margin-inline: auto;
+    margin-top: 3%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+
+}
+div.feedback div.profile div.triangle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+    background-color: rgb(255, 48, 91);
+    width: 25%;
+    height: 70%;
+}
+div.feedback div.profile div.image
+{
+    width: 20%;
+    margin-top: 6%;
+    margin-left: 6%;
+    float: left;
+    position: absolute;
+    z-index: 20;
+    
+}
+div.feedback div.profile div.image img
+{
+    width: 80%;
+    border-radius: 50%;
+    /* z-index: 20; */
+}
+div.feedback div.profile div.info
+{
+    width: 80%;
+    margin-left: 20%;
+    padding-inline: 8% 5% ;
+    padding-top: 7%;
+}
+div.feedback div.profile div.info h3
+{
+    font-size: 140%;
+    color: #333;
+}
+div.feedback div.profile div.info h4
+{
+    padding-block: 2%;
+    color: #555;
+    font-size: 90%;
+}
+div.feedback div.profile div.info p
+{
+    line-height: 160%;
+    padding-bottom: 3%;
+    color: #555;
+    font-style: italic;
+}
+div.feedback div.profile div.info div.stars ul li
+{
+    float: left;
+    list-style: none;
+    margin-right: 1%;
+    color: #f1c30d;
+}
+div.feedback div.point 
+{
+    width: 50px;
+    margin-inline: auto;
+}
+div.feedback div.point div.point-1
+{
+    width: 25px;
+    background-color: rgb(255, 48, 91);
+    margin-inline: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    float: left;
+}
+div.feedback div.point div.point-2
+{
+    width: 10px;
+    margin-inline: auto;
+    border-radius:10px;
+    padding-top: 9px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    border: solid 1px rgb(255, 48, 91);
+}
+
+
+/* blog-section */
+div.blog
+{
+ height: 100vh;
+ background-color: #f1f1f1;
+ overflow: hidden;
+}
+div.blog div.title h2 {
+    color: #333;
+    font-size: 220%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+div.blog div.title .line-1 {
+    width: 7%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+    padding-top: 0.5%;
+}
+
+div.blog div.title .line-2 {
+    width: 13%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.blog div.title .line-3 {
+    width: 7%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+div.blog div.content
+{
+    margin-top: 3%;
+    overflow: hidden;
+    width: 80%;
+    margin-inline: auto;
+}
+div.blog div.content div.part-1
+{
+    width: 30%;
+    height: 60vh;
+    margin-left: 3%;
+    background-color: white;
+    float: left;
+}
+div.blog div.content div.part-1 img
+{
+    width: 100%;
+}
+div.blog div.content div.part-1 p
+{
+   
+    margin: 5% 5% 5% 3%;
+    color: #555;
+}
+div.blog div.content div.part-1 h3
+{
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 130%;
+    color: #333333;
+    cursor: pointer;
+}
+div.blog div.content div.part-1 h3:hover
+{
+    color: rgb(255, 48, 91);
+}
+
+div.blog div.content div.part-1 a
+{
+    color: #555;
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: 90%;
+}
+div.blog div.content div.part-1 a:hover
+{
+    color: rgb(255, 48, 91);
+}
+div.blog div.content div.part-2
+{
+    width: 30%;
+    height: 60vh;
+    margin-left: 3%;
+    background-color: white;
+    float: left;
+}
+div.blog div.content div.part-2 iframe
+{
+    width: 100%;
+    height: 47%;
+}
+div.blog div.content div.part-2 p
+{
+   
+    margin: 5% 5% 5% 3%;
+    color: #555;
+}
+div.blog div.content div.part-2 h3
+{
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 130%;
+    color: #333333;
+    cursor: pointer;
+}
+div.blog div.content div.part-2 h3:hover
+{
+    color: rgb(255, 48, 91);
+}
+div.blog div.content div.part-2 a
+{
+    color: #555;
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: 90%;
+}
+div.blog div.content div.part-2 a:hover
+{
+    color: rgb(255, 48, 91);
+}
+div.blog div.content div.part-3
+{
+    width: 30%;
+    height: 60vh;
+    margin-left: 3%;
+    background-color: white;
+    float: left;
+}
+div.blog div.content div.part-3 img
+{
+    width: 100%;
+}
+div.blog div.content div.part-3 p
+{
+   
+    margin: 5% 5% 5% 3%;
+    color: #555;
+}
+div.blog div.content div.part-3 h3
+{
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 130%;
+    color: #333333;
+    cursor: pointer;
+}
+div.blog div.content div.part-3 h3:hover
+{
+    color: rgb(255, 48, 91);
+}
+div.blog div.content div.part-3 a
+{
+    color: #555;
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: 90%;
+}
+div.blog div.content div.part-3 a:hover
+{
+    color: rgb(255, 48, 91);
+}
+/* COTACT-SECTION */
+div.contact
+{
+    height: 80vh;
+}
+div.contact div.title
+{
+    margin-bottom: 3%;
+}
+
+div.contact div.title h2 {
+    color: #333;
+    font-size: 220%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+div.contact div.title .line-1 {
+    width: 7%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+    padding-top: 0.5%;
+}
+
+div.contact div.title .line-2 {
+    width: 13%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+
+div.contact div.title .line-3 {
+    width: 7%;
+    padding-top: 0.5%;
+    margin-inline: auto;
+    border-bottom: solid 1px rgb(255, 48, 91);
+}
+div.contact div.content
+{
+    width: 60%;
+    margin-inline: auto;
+}
+div.contact div.content input#name
+{
+    width: 40%;
+    padding-block: 1%;
+    border-radius: 4px;
+    padding-left: 1%;
+    margin-left: 10%;
+    border: #ccc solid 1px;
+ }
+div.contact div.content input#email
+{
+    width: 40%;
+    padding-block: 1%;
+    border-radius: 4px;
+    margin-left: 2%;
+    padding-left: 1%;
+    border: #ccc solid 1px;
+
+}
+div.contact div.content input#subject
+{
+    width: 82.5%;
+    padding-block: 1%;
+    border-radius: 4px;
+    padding-left: 1%;
+    margin-top: 3%;
+    margin-left: 10%;
+    border: #ccc solid 1px;
+}
+div.contact div.content textarea#message
+{
+    width: 82.5%;
+    padding-block: 1%;
+    border-radius: 4px;
+    padding-left: 1%;
+    padding-bottom: 10%;
+    margin-top: 3%;
+    margin-left: 10%;
+    border: #ccc solid 1px;
+}
+div.contact div.content button
+{
+margin-left: 10%;
+margin-top: 2%;
+padding: 1.5% 2%;
+border-radius: 5%;
+border:solid 0px;
+background-color: rgb(255, 48, 91);
+color: white;
+cursor: not-allowed;
+transition: 1s;
+}
+div.contact div.content button:hover
+{
+    background-color: rgb(236, 36, 3);
+}
+
+/* footer-section */
+div.footer
+{
+    height: 25vh;
+    background-color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+div.footer ul
+{
+    margin-top: 4%;
+    text-align: center;
+    width: 12%;
+    margin-inline: auto;
+    padding-left: 1%;
+}
+div.footer ul li
+{
+    float: left;
+    margin-right: 15%;
+    list-style: none;
+}
+div.footer ul li i
+{
+    color: white;
+    font-size: 130%;
+    transition: 0.5s; 
+    cursor: pointer;   
+}
+div.footer ul li i:hover
+{
+    color:rgb(255, 48, 91) ;
+}
+div.footer p
+{
+    margin-top: 1%;
+    font-weight: 600;
+    color: white;
+
+}
+div.footer p a
+{
+    color: rgb(255, 48, 91);
+}
